@@ -6,17 +6,18 @@
   <link href="./src/css/output.css" rel="stylesheet">
 </head>
 <body>
-    <section class="bg-[url('/src/img/bg1.jpeg')] bg-cover bg-center h-screen w-full -mt-5">
+    <section class="bg-[url('/src/img/bg1.jpeg')] bg-cover bg-center h-screen w-full">
   <header>
-    <nav class="grid grid-cols-2 gap-20 mt-6 2xl:mt-6 2xl:gap-20 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2">
-        <div class="grid grid-cols-2 text-white mt-6 2xl:mt-6 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2">
-            <div class="ml-5 2xl:ml-5 xl:ml-5 lg:ml-5 md:lg:ml-5"><img class="w-20 h-16" src="/src/image/favicon.ico" alt=""></div>
-            <div class="-ml-52 2xl:-ml-52 xl:-ml-52 lg:-ml-32 md:-ml-16 sm:-ml-8">
+    <nav class="flex justify-between items-center px-6 py-4">
+        <div class="flex gap-4">
+            <div class="md:w-52 w-44 h-14  overflow-hidden">
+                <img class="w-full h-full object-contain object-center" src="/src/img/icon.svg" alt="" cl></div>
+            <div class="text-white md:-ml-20">
                 <p class="underline text-xl 2xl:text-xl xl:text-xl lg:text-xl">UNIVERSITY OF</p>
                 <p class="font-bold text-2xl 2xl:text-2xl xl:text-2xl lg:text-2xl">LIVERPOOL</p>
             </div>
         </div>
-        <ul class="grid grid-cols-7 gap-1 mr-10 mt-10 2xl:mt-10 2xl:mr-10 2xl:gap-1 2xl:grid-cols-7 xl:mr-10 xl:mt-10 xl:gap-1 xl:grid-cols-7 lg:mr-10 lg:mt-10 lg:gap-1 lg:grid-cols-7  md:mr-10 md:mt-10 md:gap-1 md:grid-cols-7 text-white sm:hidden">
+        <ul class="md:inline-flex gap-8 hidden text-white ">
             <li class="md:-ml-20 sm:-ml-20 lg:ml-0 xl:ml-0 2xl:ml-0 ml-0">News</li>
             <li class="md:-ml-16 sm:-ml-16 lg:ml-0 xl:ml-0 2xl:ml-0 ml-0">Jobs</li>
             <li class="md:-ml-14 sm:-ml-14 lg:ml-0 xl:ml-0 2xl:ml-0 ml-0">Donate</li>
@@ -26,46 +27,49 @@
             <li class="md:ml-0 sm:ml-0 lg:ml-0 xl:ml-0 2xl:ml-0 ml-0">Students</li>
         </ul>
     </nav>
-    <nav class="grid grid-cols-6 text-white mt-10 2xl:mt-10 2xl:grid-cols-6 xl:grid-cols-6 lg:grid-cols-6 md:grid-cols-6 sm:grid-cols-7">
+    
+  </header>
+  <nav class="md:inline-flex gap-8 hidden text-white mt- 10 ">
+        <div class="md:inline-flex gap-30 hidden">
         <div class="flex gap-2 ml-10 2xl:ml-10 2xl:gap-2 xl:ml-10 xl:gap-2 lg:gap-2 lg:ml-10 md:gap-2 md:ml-10 sm:gap-2 sm:ml-10 ">
-            <p class="sm:hidden">Study</p>
-            <span><img class="md:hidden sm:hidden" src="/src/img/down.svg" alt=""></span>
+            <p class="">Study</p>
+            <span><img class="" src="/src/img/down.svg" alt=""></span>
         </div>
-        <div class="flex gap-2 -ml-12 2xl:-ml-12 2xl:gap-2 xl:-ml-16 xl:gap-2 lg:gap-2 lg:-ml-10 md:gap-2 md:-ml-8 sm:gap-2 sm:-ml-8 ">
-            <p class="sm:hidden">Student life</p>
-            <span><img class="md:hidden sm:hidden" src="/src/img/down.svg" alt=""></span>
+        <div class="flex gap-2 ml-12 2xl:-ml-12 2xl:gap-2 xl:-ml-16 xl:gap-2 lg:gap-2 lg:-ml-10 md:gap-2 md:-ml-8 sm:gap-2 sm:-ml-8 ">
+            <p class="">Student life</p>
+            <span><img class="" src="/src/img/down.svg" alt=""></span>
         </div>
-        <div class="flex gap-2 -ml-24 2xl:-ml-24 2xl:gap-2 xl:-ml-32 xl:gap-2 lg:gap-2 lg:-ml-20 md:gap-2 md:-ml-16 sm:gap-2 sm:-ml-16 ">
-            <p class="sm:hidden">Research and Inovation</p>
-            <span><img class="md:hidden sm:hidden" src="/src/img/down.svg" alt=""></span>
+        <div class="flex gap-2 ml-32 2xl:-ml-24 2xl:gap-2 xl:-ml-32 xl:gap-2 lg:gap-2 lg:-ml-20 md:gap-2 md:-ml-16 sm:gap-2 sm:-ml-16 ">
+            <p class="">Research and Inovation</p>
+            <span><img class="" src="/src/img/down.svg" alt=""></span>
         </div>
-        <div class="flex gap-2 -ml-14 2xl:-ml-14 2xl:gap-2 xl:-ml-28 xl:gap-2 lg:-ml-10 lg:gap-2 md:-ml-2 md:gap-2 sm:-ml-2 sm:gap-2">
-            <p class="sm:hidden">Global</p>
-            <span><img class="md:hidden sm:hidden" src="/src/img/down.svg" alt=""></span>
+        <div class="flex gap-2 -ml-24 2xl:-ml-14 2xl:gap-2 xl:-ml-28 xl:gap-2 lg:-ml-10 lg:gap-2 md:-ml-2 md:gap-2 sm:-ml-2 sm:gap-2">
+            <p class="">Global</p>
+            <span><img class="" src="/src/img/down.svg" alt=""></span>
         </div>
         <div class="flex gap-2 -ml-32 2xl:-ml-32 2xl:gap-2 xl:-ml-48 xl:gap-2 lg:-ml-24 lg:gap-2 md:-ml-14 md:gap-2 sm:-ml-14 sm:gap-2 ">
-            <p class="sm:hidden">About us</p>
-            <span><img class="md:hidden sm:hidden" src="/src/img/down.svg" alt=""></span>
+            <p class="">About us</p>
+            <span><img class="" src="/src/img/down.svg" alt=""></span>
         </div>
-        <div class="flex gap-2 2xl:gap-2 xl:gap-2 lg:gap-2 md:gap-2 sm:gap-2 ">
-            <span><img class="w-10 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-10  sm:-mt-28" src="/src/img/search.svg" alt=""></span>
-            <p class="mt-2 2xl:mt-2 xl:mt-2 lg:mt-2 md:mt-2 sm:mt-2 md:hidden sm:hidden">Search the site</p>
-            <div class="sm:ml-16 absolute sm:-mt-26">
-            <img class="sm:w-16 sm:h-8 2xl:hidden xl:hidden md:hidden lg:hidden" src="/src/img/menu.svg" alt="">
+        </div>
+        <div class="flex gap-2 2xl:gap-2 xl:gap-2 lg:gap-2 md:gap-2 sm:gap-2 ml-48 ">
+            <span><img class="w-10 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-10" src="/src/img/search.svg" alt=""></span>
+            <p class="md:inline-flex hidden">Search the site</p>
+            <div class="sm:ml-16 absolute sm:mt-26 md:hidden">
+            <img class="" src="/src/img/menu.svg" alt="">
         </div>
         </div>
         
     </nav>
-  </header>
   <main class="font-bold text-white relative mt-10 2xl:mt-10 xl:mt-10 lg:mt-10 md:mt-10 sm:mt-10">
     <div class="border-2 border-white px-10 py-8 ml-10 2xl:px-10 2xl:py-8  2xl:ml-10 absolute 2xl:absolute xl:absolute lg:absolute md:absolute sm:absolute xl:px-10 xl:py-8  xl:ml-10 lg:px-10 lg:py-8  lg:ml-10 md:px-10 md:py-8  md:ml-10 sm:px-10 sm:py-8  sm:ml-10 ">
         <p class="text-2xl 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-2xl sm:text-2xl">MAKE 2026 YOUR YEAR</p>
     </div>
-<div class="border-2 border-white px-10 py-8 mt-24 ml-10 2xl:px-10 2xl:py-8  2xl:ml-10 2xl:mt-24 absolute xl:px-10 xl:py-8  xl:ml-10 xl:mt-24 lg:px-10 lg:py-8 lg:ml-10 lg:mt-24  md:ml-10 md:mt-24 md:px-10 md:py-8   sm:ml-10 sm:mt-24 sm:px-10 sm:py-8 2xl:absolute xl:absolute lg:absolute md:absolute sm:absolute   ">
+<div class="border-2 border-white px-10 py-8 mt-32 ml-10 2xl:px-10 2xl:py-8  2xl:ml-10 2xl:mt-24 absolute xl:px-10 xl:py-8  xl:ml-10 xl:mt-24 lg:px-10 lg:py-8 lg:ml-10 lg:mt-24  md:ml-10 md:mt-24 md:px-10 md:py-8   sm:ml-10 sm:mt-24 sm:px-10 sm:py-8 2xl:absolute xl:absolute lg:absolute md:absolute sm:absolute   ">
         <p class="text-xl 2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-xl ">We offer a range of master’s courses in business <br> and management, allied health, computer <br> science and engineering all available to start in <br>January 2026.</p>
     </div>
 
-    <div class="border-2 border-white px-6 py-4 mt-72 ml-10 2xl:px-10 2xl:py-8 2xl:ml-10 2xl:mt-72 absolute  xl:px-10 xl:py-8 xl:ml-10 xl:mt-80  lg:px-10 lg:py-8 lg:ml-10 lg:mt-80 md:px-10 md:py-8 md:ml-10 md:mt-80 sm:px-10 sm:py-8 sm:ml-10 sm:mt-80  ">
+    <div class="border-2 border-white px-6 py-4 mt-96 ml-10 md:px-10 md:h-28 2xl:ml-10 2xl:mt-72 absolute  xl:px-10 xl:py-8 xl:ml-10 xl:mt-80  lg:px-10 lg:py-8 lg:ml-10 lg:mt-80 md:ml-10 md:mt-80  sm:mt-80  ">
         <p class="text-xl 2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-xl ">Discover our</p>
         <span class="flex">
         <p class="text-xl 2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-xl">January courses</p>
@@ -74,10 +78,93 @@
     </div>
     
   </main>
-  <div class=" md:bg-gray-800 md:w-full md:h-44 md:mt-80 sm:bg-gray-800 sm:w-full sm:h-44 sm:mt-80 "></div>
+  <div class="bg-gray-800 w-full h-44 mt-96 sm:bg-gray-800 sm:w-full sm:h-44 sm:mt-80 md:hidden "></div>
+  </section>
+  <section class=" bg-blue-800 md:w-full md:h-60 h-32 w-full font-bold text-white">
+<div class="md:inline-flex flex-1 md:mt-10 mt-20 gap-10 ml-10 md:ml-10">
+    <p class=" ">Find your course</p>
+   <input class="bg-white md:px-40 md:h-10" type="text">
+    <button class="md:w-28 md:h-10 w-20 h-10 border-2 border-white">Search</button>
+    <div class="md:inline-block hidden">
+    <p class="underline">courses by A-Z</p>
+    <p class="underline">courses by subject</p>
+</div>
+</div>
+<div class="md:inline-flex block md:ml-40 md:mt-10  gap-10">
+<label>
+    <input type="radio">
+    Undergraduate
+</label>
+<label>
+    <input type="radio">
+    Postgraduade taught
+</label>
+<label>
+    <input type="radio">
+    Postgraduade research
+</label>
+</div>
+  </section>
+
+  <section class="md:mt-10 mt-10">
+    <h1 class="md:text-4xl text-3xl md:ml-10 ml-10 font-bold">Discover the University of Liverpool</h1>
+    <div class="grid md:grid-cols-2 grid-cols-1 md:mt-10 mt-10">
+        <div class="md:w-96 w-full md:ml-10 ml-10 ">
+            <img src="/src/img/contact-us-VGM (1).jpeg" alt="">
+        </div>
+            <div class="md:font-bold font-bold -ml-32 md:-ml-32 mr-10 md:mr-10 ">
+            <p>    We are the University of Liverpool. Located at the heart of a thrilling world city, we are a dynamic institution of academic excellence and innovation, making a positive impact across the United Kingdom and the wider world.</p>
+
+<p class="mt-10">Since 1881, we've been at the forefront of world-class research and education, known for our cutting-edge facilities and relentless pursuit of excellence and achievement. Find out how you can be part of our vibrant community and explore the work we’re doing with our famous home city.</p>
+ <div class="mt-6 flex gap-20">
+                <button class="border-2 border-blue-950 w-32 h-10">Learn about us</button>
+                <button class="border-2 border-blue-950 w-72 h-10">Liverpool: Our City, Our Inspiration</button>
+               
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section>
+    <main class="grid md:grid-cols-2 grid-cols-2 mt-20 md:mt-20">
+        <div class="ml-10 md:ml-10 bg-blue-900 md:w-full text-white ">
+            <h1 class="font-bold text-3xl ml-10 ">Study with us</h1>
+            <p class="mt-5 ml-10 mr-10">Discover endless possibilities. We offer a range of courses with support and expertise to help you succeed in your future career. Find your perfect course, explore our subject areas or discover everything you need to know about studying with us.</p>
+            <div class="mt-10 ml-10 gap-10">
+            <button class="border-2 border-white w-32 h-20">Undergraduate</button>
+            <button class="border-2 border-white w-32 h-20">Master’s</button>
+            <button class="border-2 border-white w-56 h-20">Postgraduade research</button></div>
+            <div class="mt-5 ml-10 flex gap-3 mr-20">
+                <button class="border-2 border-white w-80 h-20" >Continuing Professtional Development</button>
+                <button class="border-2 border-white w-56 h-20">International Students</button>
+            </div>
+        </div>
+        <div>
+            <img src="/src/img/Two,students,working,on,campus.jpeg" alt=""> 
+        </div>
+    </main>
+  </section>
+
+  <section>
+    <main class="grid grid-cols-4 md:grid-cols-4 mt-20 text-white bg-pink-700 w-full h-48">
+        <div class="w-20 h-20 ml-20 mt-10"><img class="w-32" src="/src/img/conversation (1).svg" alt=""></div>
+        <div class="font-bold text-3xl -ml-20 mt-10">Undergraduate <br> open events</div>
+        <div class="text-2xl font-bold -ml-20 w-96 mt-10">Meet us online at our Undergraduate Online Open Week to find out more about studying a degree at Liverpool.</div>
+        <button class="bg-blue-950 w-40 h-10 mt-20 ml-10 shadow-amber-100 ">Book your place</button>
+    </main>
   </section>
   <section>
-    
+<main class="grid md:grid-cols-2 grid-cols-1 mt-20 md:mt-20">
+    <div>
+            <img src="/src/img/fellowships-promo.jpeg" alt=""> 
+        </div>
+        <div class=" bg-blue-900 md:w-full text-white ">
+            <h1 class="font-bold text-3xl ml-10 mt-10 ">University of Liverpool Fellowships</h1>
+            <p class="mt-10 ml-10 mr-20">Do you have an original and compelling vision for harnessing the power of AI for research? Apply for one of our research fellowships and bring it to life at Liverpool.</p>
+            <div class="mt-10 ml-10 gap-10">
+            <button class="border-2 border-white w-32 h-20">Apply now</button>
+        </div>
+    </main>
   </section>
 </body>
 </html>
